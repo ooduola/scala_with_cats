@@ -6,6 +6,7 @@ import cats.syntax.show._
 import cats.syntax.eq._
 
 object ScalaPlayground extends App {
+
   final case class Person(name: String, age: Int)
   final case class Cat(name: String, age: Int, description: String)
 
@@ -49,7 +50,6 @@ object ScalaPlayground extends App {
 //  println(optionCat1 === None)
   val a = 10
   val b = 10
-
 
 //  println(Person("tunji", 10) === Person("tunjki", 11))
 //  println(Person("Tunji", 10).show)
